@@ -1,0 +1,74 @@
+{
+  "employees": {
+    "E101": {
+      "name": "Aarav Sharma",
+      "role": "Manager",
+      "access": [
+        "GITHUB",
+        "AWS",
+        "SLACK",
+        "JIRA"
+      ],
+      "email": "aaravsharma@pythongurukool.com",
+      "experience": 6,
+      "phone": "",
+      "created_at": "2026-08-15"
+    },
+    "E102": {
+      "name": "Sneha Patil",
+      "role": "Intern",
+      "access": [
+        "SLACK",
+        "JIRA"
+      ],
+      "email": "snehapatil@pythongurukool.com",
+      "experience": 0,
+      "phone": "",
+      "created_at": "2026-08-15"
+    },
+    "E103": {
+      "name": "Kabir Desai",
+      "role": "Developer",
+      "access": [
+        "GITHUB",
+        "SLACK",
+        "JIRA",
+        "AWS"
+      ],
+      "email": "kabirdesai@pythongurukool.com",
+      "experience": 2,
+      "phone": "",
+      "created_at": "2026-09-02"
+    }
+  },
+  "logs": [
+    {
+      "id": "E101",
+      "tool": "GITHUB",
+      "status": "Granted",
+      "date": "2026-08-15",
+      "detail": "Initial access assigned",
+      "risk": 5
+    },
+    {
+      "id": "E102",
+      "tool": "AWS",
+      "status": "Denied",
+      "date": "2026-08-15",
+      "detail": "Intern role lacks AWS permission",
+      "risk": 45
+    },
+    {
+      "id": "E103",
+      "tool": "AWS",
+      "status": "Granted",
+      "date": "2026-09-02",
+      "detail": "Developer role permission",
+      "risk": 10
+    }
+  ],
+  "requests": [],
+  "settings": {
+    "company": "PYTHONGURUKOOL"
+  }
+}
